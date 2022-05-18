@@ -18,9 +18,9 @@ function App() {
   }
 
   return (
-    <div className = "flex flex-col items-center justify-center h-screen">
+    <div className = "page">
       <ProgressBar num={count}/>
-      <div className='w-[60%] flex justify-center border border-sky-500'>
+      <div className = "centerInPage">
         <ControlButtons buttonSymbol='<' buttonClickFunction = {decrease}/>
         <Card/>
         <ControlButtons buttonSymbol='>' buttonClickFunction = {increase}/>

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components{
+  .page{
+    @apply flex flex-col items-center justify-center h-screen border
+  }
+  .centerInPage{
+    @apply w-[60%] flex justify-center border border-sky-500
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
